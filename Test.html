@@ -1,25 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>Test Page</title>
+  <meta charset="utf-8">
 </head>
 <body>
   <h1>これはTEST PAGEです。</h1>
   <img src="baby.gif" alt="Dancing Baby"/><br><br>
-  <h2>これはふりがなのTESTです。</h1>
+  <h2>これはふりがなのTESTです。</h2>
   <p>お<ruby>菓子<rp></rp><rt>かし</rt<rp></rp></ruby>を<ruby>食<rp></rp><rt>た</rt<rp></rp></ruby>べすぎないほうがいいですよ。<br><br>
   <h2>書いてください</h2>
   <form>
     <br>
-    <label for="textbox">This is a label. Enter text in the box:</label>
-    <input type="text" name="txt" id="textbox">
+    <label for="textbox">You must type here to submit:</label>
+    <input type="text" name="txt" id="textbox" required>
+    <input type="submit" value="Submit">
   </form>
   <br>
-  <form>
-    <label for="username">Username:</label>
-    <input type=
-  </form>
-  <h3>Poop Customization Tool</h2>
+  <hr>
+  <h3>Poop Customization Tool</h3>
   <form>
     <label for="consistency"><strong>Poop Consistency</strong></label>
     <br>
@@ -30,7 +29,7 @@
     <br>
     <label for="mass"><strong>Desired Mass (lb)</strong></label>
     <br>
-    <input id="mass" name="mass" type="number">
+    <input id="mass" name="mass" type="number" min="0">
     <br>
     <p><strong>Stinky?</strong></p>
     <input id="yes" name="stink" type="radio" value="yes">
@@ -72,7 +71,7 @@
   </form>
   <br>
   <br>
-  <a href="./index.html">return</a></p>
+  <p><a href="./index.html">return</a></p>
   <br>
   <br>
   <br>
