@@ -6,3 +6,123 @@ table {
   border-collapse: collapse;
   border: 3px solid blue;
 }
+.pform{
+  color: brown;
+}
+.light {
+  font-weight: lighter;
+}
+#top {
+  font-size: 48px;
+  background-color: rgb(50,50,100);
+  font-weight: lighter;
+  margin: 0;
+  padding-left: 20%;
+  color: lightgray;
+}
+.header:link {
+  text-decoration: none;
+}
+.titlebox {
+  background-color: white;
+}
+.navigation {
+  padding: 20px 0 20px 20%;
+}
+.header {
+  width: 100%;
+}
+.navbox {
+  background-color: rgb(50,50,80);
+  margin-top: 0;
+  border-top: 2px solid black;
+  width: 100%;
+  margin: 0;
+}
+header {
+  margin: 0;
+}
+main,
+header,
+footer,
+#top {
+  font-family: helvetica;
+}
+.l,
+.mc p {
+}
+.mc {
+  background-color: hsl(26, 89%, 85%);
+}
+header h1 {
+  background-color: red;
+}
+.mcmain{
+  background-color: rgb(0,140,255);
+}
+.mcmain p, .l {
+  background-color: rgb(40,200,60);
+}
+.testmain {
+  width: 1000px;
+  margin: 0 auto;
+}
+.testbody {
+  background-color: hsl(181, 89%, 85%);
+}
+.pooptool {
+  background: rgb(170,170,255);
+  width: 500px;
+  border: darkblue solid;
+  border-radius: 15px;
+  padding: 6px;
+  margin: 0 auto;
+
+}
+.button {
+  background-color: brown;
+  border: 1px black solid;
+  padding: 10px 20px;
+  margin: 0;
+  color: white;
+  display: inline-flex;
+  min-width: 10px;
+  width: 150px;
+  text-transform: uppercase;
+}
+.button:link {
+  text-decoration: none;
+}
+.button:hover {
+  background-color: hsl(0, 0%, 64%)
+}
+.mcmain2 {
+  margin: 0 auto;
+  padding: 0 5%;
+  max-width: 1200px;
+  min-width: 60px;
+  line-height: 30px;
+}
+.mc2pic {
+  display: flex;
+  margin: 50px auto;
+  max-width: 50%;
+  min-width: 10px;
+  flex-shrink: 1;
+}
+.footer {
+  background-color: hsla(0, 0%, 35%, .8);
+  width: 100%;
+  height: 200px;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+}
+.column {
+  color: white;
+  width: 100px;
+  height: 100%;
+  line-height: 60px;
+}
+.textalignright {
+}
